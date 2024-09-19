@@ -6,9 +6,9 @@ function logar() {
   let senhaInput = document.getElementById("senha").value;
 
   if (emailInput === user && senhaInput === senha) {
-    alert("Logado...");
+    window.location.assign('https://www.google.com')
   } else {
-    alert("Não logado");
+    console.log("Não logado");
   }
 }
 
